@@ -1,0 +1,21 @@
+#container{
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+}
+div{
+	height: 25%;
+	width: 25%;
+	border-radius: 30%;
+	padding: 2rem;
+	margin: 1rem;
+}
+#div1{
+	background-color: red;
+}
+#div2{
+	background-color: green;
+}
+#div3{
+	background-color: orange
+}
