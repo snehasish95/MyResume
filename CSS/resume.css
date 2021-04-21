@@ -279,6 +279,11 @@ div.exp{
 	height: 30%;
 	width: 30%;
 }
+
+#experience, #education, #Skills, #portfolio {
+	transition: 0.45s linear filter;
+}
+
 #experience{
 	height: auto;
 	background-color: #fcf9dc;
@@ -373,17 +378,17 @@ div.exp{
 	padding: 10px;
 }
 #matric{
-    background-image: url(Images/matric-image.png);
+    background-image: url(../Images/matric-image.png);
     background-size: cover;
     background-blend-mode: soft-light;
 }
 #plus2{
-    background-image: url(Images/plus2.jpeg);
+    background-image: url(../Images/plus2.jpeg);
     background-size: cover;
     background-blend-mode: soft-light;
 }
 #grad{
-    background-image: url(Images/grad.jpeg);
+    background-image: url(../Images/grad.jpeg);
     background-size: contain;
     background-blend-mode: soft-light;
 }
